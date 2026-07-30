@@ -17,7 +17,7 @@ A comprehensive collection of specialized skill definitions for AI coding agents
 Use the automated setup script to install skills directly into your AI editor's configuration folder:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Luveedu/AI-AGENTS-FIX/refs/heads/main/setup.sh | bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/Luveedu/AI-AGENTS-FIX/refs/heads/main/setup.sh)"
 ```
 
 The script will prompt you to select your AI code editor and automatically download all skills to the appropriate directory.
