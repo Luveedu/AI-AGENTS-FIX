@@ -93,8 +93,8 @@ echo ""
 echo -e "${GREEN}Selected: ${EDITOR_NAME} (${EDITOR_FOLDER})${NC}"
 echo ""
 
-# Create skills directory
-SKILLS_DIR="${HOME}/${EDITOR_FOLDER}/skills"
+# Create skills directory (relative to current working directory)
+SKILLS_DIR="$(pwd)/${EDITOR_FOLDER}/skills"
 echo -e "${YELLOW}Creating skills directory: ${SKILLS_DIR}${NC}"
 mkdir -p "${SKILLS_DIR}"
 

@@ -42,9 +42,10 @@ AI-AGENTS-FIX/
 
 ## 💡 How to Use
 
-1. **Run the setup script** - Select your AI editor from the interactive menu
-2. **Skills are downloaded** - Each skill is placed in `<editor-folder>/skills/<skill-name>/SKILL.md`
-3. **Enable in your editor** - Your AI agent will automatically detect and use these skills
+1. **Navigate to your project folder** - `cd /path/to/your/project`
+2. **Run the setup script** - Select your AI editor from the interactive menu
+3. **Skills are downloaded** - Each skill is placed in `<your-project>/<editor-folder>/skills/<skill-name>/SKILL.md` (relative to where you run the script)
+4. **Enable in your editor** - Your AI agent will automatically detect and use these skills
 
 ## 🎯 Supported Editors
 
